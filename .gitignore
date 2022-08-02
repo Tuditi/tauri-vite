@@ -1,3 +1,16 @@
+# Build directories
+**/public/build/
+**/public/assets/animations
+**/public/assets/docs
+**/public/assets/fonts
+**/public/assets/illustrations
+**/public/assets/logos
+**/public/assets/patterns
+**/public/assets/sounds
+**/public/assets/videos
+
+**/public/locales/
+
 # Logs
 logs
 *.log
