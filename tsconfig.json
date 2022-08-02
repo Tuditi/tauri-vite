@@ -14,7 +14,14 @@
      */
     "allowJs": true,
     "checkJs": true,
-    "isolatedModules": true
+    "isolatedModules": false,
+    "paths": {
+        "@auxiliary/*": ["src/shared/lib/auxiliary/*"],
+        "@contexts/*": ["src/shared/lib/contexts/*"],
+        "@core/*": ["src/shared/lib/core/*"],
+        "@features/*": ["src/shared/features/*"],
+        "@lib/*": ["src/shared/lib/*"]
+    }
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
   "references": [{ "path": "./tsconfig.node.json" }]

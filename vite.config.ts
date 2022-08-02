@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite'
+import * as path from 'path'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
+
 
 export default defineConfig({
   // prevent vite from obscuring rust errors
@@ -20,5 +22,12 @@ export default defineConfig({
     // produce sourcemaps for debug builds
     sourcemap: !!process.env.TAURI_DEBUG,
   },
-  plugins: [svelte()]
+  plugins: [svelte()],
+  resolve: {
+    alias: [
+        { find: '@core', replacement: path.resolve(__dirname, 'src/shared/lib/core') },
+        { find: '@lib', replacement: path.resolve(__dirname, 'src/shared/lib') },
+        { find: 'shared', replacement: path.resolve(__dirname, 'src/shared') },
+    ],
+  }
 })
