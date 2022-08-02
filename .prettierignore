@@ -1,0 +1,23 @@
+# Repository
+.vscode/
+
+patches/
+specs/
+
+dist
+src-tauri
+
+# Public
+src/public
+
+# Shared (packages/shared)
+src/shared/assets
+src/shared/locales
+!src/shared/locales/en.json
+
+# Common files and folders
+**/node_modules/
+**/out/
+
+# ESLint configuration and files
+**/.eslintrc.js
