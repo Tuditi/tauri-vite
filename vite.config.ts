@@ -24,7 +24,10 @@ export default defineConfig({
     plugins: [svelte()],
     resolve: {
         alias: [
+            { find: '@auxiliary', replacement: path.resolve(__dirname, 'src/shared/lib/auxiliary') },
+            { find: '@contexts', replacement: path.resolve(__dirname, 'src/shared/lib/contexts') },
             { find: '@core', replacement: path.resolve(__dirname, 'src/shared/lib/core') },
+            { find: '@features', replacement: path.resolve(__dirname, 'src/shared/lib/features') },
             { find: '@lib', replacement: path.resolve(__dirname, 'src/shared/lib') },
             { find: 'shared', replacement: path.resolve(__dirname, 'src/shared') },
         ],
