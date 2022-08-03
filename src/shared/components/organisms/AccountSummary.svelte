@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { AccountActionsButton, Text, TogglableAmountLabel } from 'shared/components'
     import { mobile } from '@core/app'
     import { localize } from '@core/i18n'

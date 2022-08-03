@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { onDestroy, onMount } from 'svelte'
     import { BundleMiningLayout, Button, Icon, ProgressBar, Text } from 'shared/components'
     import { localize } from '@core/i18n'

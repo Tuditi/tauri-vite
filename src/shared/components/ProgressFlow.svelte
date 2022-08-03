@@ -1,4 +1,4 @@
-<script context="module" lang="typescript">
+<script context="module" lang="ts">
     export type ProgressStep = {
         title: string
         ongoing?: boolean
@@ -6,7 +6,7 @@
     }
 </script>
 
-<script lang="typescript">
+<script lang="ts">
     import { Icon } from 'shared/components'
     import { appSettings } from '@core/app'
 

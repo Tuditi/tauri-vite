@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { createEventDispatcher, onDestroy, onMount } from 'svelte'
     import { Animation, Button, Icon, Link, OnboardingLayout, Spinner, Text } from 'shared/components'
     import { localize } from '@core/i18n'

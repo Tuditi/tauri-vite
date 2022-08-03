@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Error, Icon } from 'shared/components'
     import { onMount } from 'svelte'
 

@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { selectedAccount, syncSelectedAccount } from '@core/account'
     import { isSoftwareProfile } from '@core/profile'
     import { checkStronghold } from '@lib/stronghold'

@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { IAccountState, selectedAccount } from '@core/account'
     import { visibleActiveAccounts } from '@core/profile'
     import { AccountLabel, Modal, Text } from 'shared/components'

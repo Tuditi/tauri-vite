@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { exportStronghold } from '@contexts/settings'
     import { isSoftwareProfile } from '@core/profile'
     import { SecuritySettings } from '@core/router'

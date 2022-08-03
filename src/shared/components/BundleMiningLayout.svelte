@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Box, Icon } from 'shared/components'
 
     export let onBackClick = (): void => {}

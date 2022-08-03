@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Spinner } from 'shared/components'
     export let percent = 0
     export let classes = ''

@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { FontWeight, FontWeightText, TextType } from 'shared/components/Text.svelte'
     import Input from './Input.svelte'
 

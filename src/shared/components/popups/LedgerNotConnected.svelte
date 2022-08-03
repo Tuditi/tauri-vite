@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Button, Icon, Text } from 'shared/components'
     import { stopPollingLedgerStatus } from 'shared/lib/ledger'
     import { closePopup } from 'shared/lib/popup'

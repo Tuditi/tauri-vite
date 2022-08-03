@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Text, Tooltip } from 'shared/components'
     import CopyableBox from './CopyableBox.svelte'
 

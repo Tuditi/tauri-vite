@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { HR, Text } from 'shared/components'
     import { clickOutside } from 'shared/lib/actions'
     import { localize } from '@core/i18n'

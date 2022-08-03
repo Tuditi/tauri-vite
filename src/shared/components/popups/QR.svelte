@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Text, QR } from 'shared/components'
     import { Locale } from '@core/i18n'
 

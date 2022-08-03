@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { onMount } from 'svelte'
     import { Button, ExpirationTimePicker, KeyValueBox, Text, Error, Spinner } from 'shared/components'
     import { TransactionDetails } from 'shared/components/molecules'

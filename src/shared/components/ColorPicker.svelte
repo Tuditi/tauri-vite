@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Text, Icon, Tooltip } from 'shared/components'
     import { isBright } from 'shared/lib/helpers'
     import { clickOutside } from 'shared/lib/actions'

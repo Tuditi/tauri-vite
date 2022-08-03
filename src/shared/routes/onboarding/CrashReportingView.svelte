@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Animation, Button, Checkbox, OnboardingLayout, Text } from 'shared/components'
     import { localize } from '@core/i18n'
     import { appSettings, isAwareOfCrashReporting } from '@core/app'

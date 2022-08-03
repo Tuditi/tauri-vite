@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Dropdown, Text } from 'shared/components'
     import { exchangeRates } from 'shared/lib/currency'
     import { localize } from '@core/i18n'

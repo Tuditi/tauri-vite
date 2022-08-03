@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { FilterUnit } from '@core/wallet/interfaces/filter.interface'
     import { Checkbox } from 'shared/components'
     import { localize } from '@core/i18n'

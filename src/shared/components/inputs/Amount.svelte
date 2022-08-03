@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Input, Text } from 'shared/components'
     import {
         convertFromFiat,

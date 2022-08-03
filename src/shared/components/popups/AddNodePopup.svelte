@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Text, NodeConfigurationForm, Button, Spinner } from 'shared/components'
     import { localize } from '@core/i18n'
     import { INode, INetwork } from '@core/network'

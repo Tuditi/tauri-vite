@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Button, Text, TextHint } from 'shared/components'
     import { FontWeightText, TextType } from 'shared/components/Text.svelte'
     import { localize } from '@core/i18n'

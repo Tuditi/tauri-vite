@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Icon } from 'shared/components'
     import { showCameraScanner, stopQRScanner } from 'shared/lib/device'
 </script>

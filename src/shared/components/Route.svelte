@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { appRoute, AppRoute } from '@core/router'
     import { Transition } from 'shared/components'
 

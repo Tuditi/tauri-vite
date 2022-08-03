@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { createEventDispatcher } from 'svelte'
     import { BundleMiningLayout, Button, Icon, Text } from 'shared/components'
     import { localize } from '@core/i18n'

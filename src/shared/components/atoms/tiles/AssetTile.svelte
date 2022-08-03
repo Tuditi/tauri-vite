@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { formatTokenAmountBestMatch, IAsset } from '@core/wallet'
     import { AssetIcon, ClickableTile, Text } from 'shared/components'
     import { FontWeightText, TextType } from 'shared/components/Text.svelte'

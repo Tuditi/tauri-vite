@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { createEventDispatcher, onDestroy } from 'svelte'
     import { Icon, PinInput, Profile, Text } from 'shared/components'
     import {

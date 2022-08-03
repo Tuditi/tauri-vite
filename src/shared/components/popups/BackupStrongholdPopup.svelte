@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { localize } from '@core/i18n'
     import { TextType } from 'shared/components/Text.svelte'
     import { Button, Logo, Text, ExportStrongholdButton } from 'shared/components'

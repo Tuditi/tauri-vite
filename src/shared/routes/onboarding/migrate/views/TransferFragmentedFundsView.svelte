@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { createEventDispatcher, onDestroy } from 'svelte'
     import { get } from 'svelte/store'
     import { Animation, Button, OnboardingLayout, Spinner, Text, TransactionItem } from 'shared/components'

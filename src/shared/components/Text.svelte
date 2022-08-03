@@ -1,4 +1,4 @@
-<script lang="typescript" context="module">
+<script lang="ts" context="module">
     export enum TextType {
         h1 = 'h1',
         h2 = 'h2',
@@ -55,7 +55,7 @@
     }
 </script>
 
-<script lang="typescript">
+<script lang="ts">
     export let type: TextType = TextType.p
     export let fontSize = ''
     export let fontWeight: FontWeightNumber | FontWeightText | '' = ''

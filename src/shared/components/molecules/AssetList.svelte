@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { localize } from '@core/i18n'
     import { assetFilter, IAccountAssets } from '@core/wallet'
     import { openPopup } from '@lib/popup'

@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Icon, Text, Tooltip } from 'shared/components'
     import { onMount } from 'svelte'
     import { get } from 'svelte/store'

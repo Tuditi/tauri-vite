@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { setContext } from 'svelte'
     import { Transition } from 'shared/components'
     import { BackupPasswordView, FileImportView, ImportView, LedgerView, SuccessView, TextImportView } from './views/'

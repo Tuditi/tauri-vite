@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { ExportStrongholdButton, Spinner, Text } from 'shared/components'
     import { localize } from '@core/i18n'
     import { TextType } from 'shared/components/Text.svelte'

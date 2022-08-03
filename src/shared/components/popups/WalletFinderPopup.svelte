@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Button, KeyValueBox, Spinner, Text, TextHint } from 'shared/components'
     import { closePopup, openPopup } from 'shared/lib/popup'
     import { showAppNotification } from 'shared/lib/notifications'

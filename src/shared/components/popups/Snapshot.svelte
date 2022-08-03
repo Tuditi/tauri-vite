@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Button, Text } from 'shared/components'
     import { Platform } from 'shared/lib/platform'
     import { Locale } from '@core/i18n'

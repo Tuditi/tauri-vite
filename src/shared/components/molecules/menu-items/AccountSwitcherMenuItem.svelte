@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { IAccountState, selectedAccount, setSelectedAccount } from '@core/account'
     import { localize } from '@core/i18n'
     import { BASE_TOKEN } from '@core/network'

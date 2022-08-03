@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { FontWeightNumber } from 'shared/components/Text.svelte'
     import { Modal, Text } from 'shared/components'
     import { Filter } from '@core/wallet/interfaces/filter.interface'

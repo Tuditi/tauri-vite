@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { setClipboard } from 'shared/lib/utils'
     import Box from './Box.svelte'
     import { Text, Tooltip } from 'shared/components'

@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Pane } from 'shared/components'
     import { assemblyStakingEventState, participationAction, shimmerStakingEventState } from '@lib/participation/stores'
     import { ParticipationEventState, StakingAirdrop as _StakingAirdrop } from '@lib/participation/types'

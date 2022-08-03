@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { RewardClaimTile } from 'shared/components'
     import { IAccount } from '@core/account'
 

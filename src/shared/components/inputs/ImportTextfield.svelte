@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Text } from 'shared/components'
     import { debounce } from 'shared/lib/utils'
     import { asyncGetLegacySeedChecksum } from 'shared/lib/wallet'

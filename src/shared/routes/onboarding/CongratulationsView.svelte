@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Animation, Button, Icon, OnboardingLayout, Text } from 'shared/components'
     import { onDestroy, onMount } from 'svelte'
     import { get } from 'svelte/store'

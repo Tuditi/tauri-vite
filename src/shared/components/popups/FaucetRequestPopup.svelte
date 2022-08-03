@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { requestTokensFromFaucet } from '@contexts/developer'
     import { BaseError } from '@core/error'
     import { localize } from '@core/i18n'

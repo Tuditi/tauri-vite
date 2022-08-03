@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Link, Text } from 'shared/components'
     import { Platform } from '@lib/platform'
 </script>

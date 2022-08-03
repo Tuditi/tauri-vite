@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { onDestroy } from 'svelte'
     import { Button, Checkbox, Text } from 'shared/components'
     import { appSettings, isAwareOfCrashReporting } from '@core/app'

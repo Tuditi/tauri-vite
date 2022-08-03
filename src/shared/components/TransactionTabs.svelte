@@ -3,7 +3,7 @@
 	@param {Array} list - array of objects to filter / show.
     @param {number} selected - Default 0, selected tab array index.
 -->
-<script lang="typescript">
+<script lang="ts">
     import { Icon, Text } from 'shared/components'
     import { flip } from 'svelte/animate'
     import * as easing from 'svelte/easing'

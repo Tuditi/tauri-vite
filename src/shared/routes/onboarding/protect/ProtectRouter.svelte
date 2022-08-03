@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Transition } from 'shared/components'
     import { SetupPinProtectionView } from './views'
     import { localize } from '@core/i18n'

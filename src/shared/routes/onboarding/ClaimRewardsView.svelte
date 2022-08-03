@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Animation, Button, OnboardingLayout, RewardClaimList, Text } from 'shared/components'
     import { onMount } from 'svelte'
     import { IAccount } from '@core/account'

@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Button, Text, Animation } from 'shared/components'
     import { closePopup } from 'shared/lib/popup'
     import { navigateToNewIndexMigration } from 'shared/lib/ledger'

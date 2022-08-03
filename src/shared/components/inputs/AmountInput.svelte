@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { NumberInput } from 'shared/components'
     import { localize } from '@core/i18n'
     import { FontWeightText } from 'shared/components/Text.svelte'

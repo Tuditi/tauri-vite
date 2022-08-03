@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Button, Checkbox, PasswordInput, Spinner, Text } from 'shared/components'
     import { localize } from '@core/i18n'
     import passwordInfo from 'shared/lib/password'

@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { COIN_TYPE, NetworkProtocol } from '@core/network'
     import { getAssetInitials, IAsset, SPECIAL_TOKEN_ID } from '@core/wallet'
     import { VerificationStatus } from '@core/wallet/enums/verification-status.enum'

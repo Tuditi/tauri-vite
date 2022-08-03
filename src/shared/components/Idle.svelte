@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { activeProfile, logout } from '@core/profile'
     import { debounce } from 'shared/lib/utils'
     import { onDestroy } from 'svelte'

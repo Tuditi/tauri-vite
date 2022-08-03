@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { formatDate, LocaleArguments, localize } from '@core/i18n'
     import { getAccountParticipationAbility } from '@lib/participation/participation'
     import { assemblyStakingEventState, shimmerStakingEventState } from '@lib/participation/stores'

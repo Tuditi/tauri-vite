@@ -1,8 +1,8 @@
-<script lang="typescript" context="module">
+<script lang="ts" context="module">
     export type ExpirationTimeSelection = 'none' | '1hour' | '1day' | '1week' | 'custom'
 </script>
 
-<script lang="typescript">
+<script lang="ts">
     import { formatDate, localize } from '@core/i18n'
     import { HR, Modal, MenuItem, ExpirationDateTimePicker } from 'shared/components'
     import { fade } from 'svelte/transition'

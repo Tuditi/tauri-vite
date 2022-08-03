@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { get } from 'svelte/store'
     import { Button, PinInput, Spinner, Text } from 'shared/components'
     import { localize } from '@core/i18n'

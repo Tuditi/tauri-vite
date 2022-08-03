@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Button, Text, RecipientInput, AssetAmountInput, ClosableInput, AddInputButton } from 'shared/components'
     import { localize } from '@core/i18n'
     import { closePopup, openPopup } from 'shared/lib/popup'

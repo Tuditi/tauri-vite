@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Drawer, Icon } from 'shared/components'
     import { clickOutside } from 'shared/lib/actions'
     import { closePopup, popupState } from 'shared/lib/popup'

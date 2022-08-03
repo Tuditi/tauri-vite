@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import zxcvbn from 'zxcvbn'
     import { Animation, Button, OnboardingLayout, PasswordInput, Text } from 'shared/components'
     import { mobile } from '@core/app'

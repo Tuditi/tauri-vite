@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { HR, Link, StakingAirdropIndicator, Text } from 'shared/components'
     import { localize } from '@core/i18n'
     import { showAppNotification } from 'shared/lib/notifications'

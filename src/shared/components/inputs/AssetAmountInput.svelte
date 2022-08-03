@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Text, AssetDropdown, InputContainer, AmountInput } from 'shared/components'
     import UnitInput from './UnitInput.svelte'
     import { parseCurrency } from '@lib/currency'

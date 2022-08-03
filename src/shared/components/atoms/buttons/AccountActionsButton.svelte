@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Modal, AccountActionsMenu } from 'shared/components'
 
     export let classes = ''

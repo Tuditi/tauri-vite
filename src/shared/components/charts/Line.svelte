@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { AccountColors } from '@core/account'
     import Chart from 'chart.js'
     import { appSettings } from '@core/app'

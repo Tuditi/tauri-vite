@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Error } from 'shared/components'
     import { ADDRESS_LENGTH } from 'shared/lib/utils'
     import { onMount } from 'svelte'

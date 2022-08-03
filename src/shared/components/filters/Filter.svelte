@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { TogglableButton, FilterModal, FilterItem, Modal } from 'shared/components'
     import { Filter } from '@core/wallet/interfaces/filter.interface'
     import { deepCopy } from '@lib/utils'

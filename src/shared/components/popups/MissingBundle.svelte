@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Button, Text, Link } from 'shared/components'
     import { Platform } from 'shared/lib/platform'
     import { closePopup } from 'shared/lib/popup'

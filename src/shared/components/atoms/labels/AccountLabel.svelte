@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { IAccountState } from '@core/account'
     import { Text } from 'shared/components/'
     import { FontWeightText } from 'shared/components/Text.svelte'

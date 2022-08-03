@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { createEventDispatcher } from 'svelte'
     import { Animation, Button, OnboardingLayout, PinInput, Text } from 'shared/components'
     import { cleanupProtectionOnboarding, resetImportState } from '@contexts/onboarding'

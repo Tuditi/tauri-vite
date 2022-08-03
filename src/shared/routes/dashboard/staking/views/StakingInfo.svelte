@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Animation, Link, Text } from 'shared/components'
     import { Platform } from 'shared/lib/platform'
     import { formatDate, LocaleArguments, localize } from '@core/i18n'

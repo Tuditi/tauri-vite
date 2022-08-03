@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { FontWeightText } from 'shared/components/Text.svelte'
     import { Text, CopyableBox } from 'shared/components'
 

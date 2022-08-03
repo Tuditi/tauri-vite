@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { Icon, Text, Tooltip } from 'shared/components'
     import { appSettings } from '@core/app'
     import { localize } from '@core/i18n'

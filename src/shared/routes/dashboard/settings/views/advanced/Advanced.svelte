@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import { HR } from 'shared/components'
     import { activeProfile, isLedgerProfile } from '@core/profile'
     import { AdvancedSettings } from '@core/router'

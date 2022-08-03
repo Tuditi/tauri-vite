@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
     import QRCode from 'qr.js/lib/QRCode'
     import { appSettings } from '@core/app'
 
