@@ -38,7 +38,7 @@
         position: relative;
         :global(svg path) {
             @apply text-white;
-            @apply stroke-current;
+            // @apply stroke-current;
             fill: none;
         }
         div {

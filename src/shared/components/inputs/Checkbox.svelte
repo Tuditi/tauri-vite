@@ -40,11 +40,11 @@
         :global(svg:not(.active) path) {
             fill: none;
             @apply text-gray-500;
-            @apply stroke-current;
+            // @apply stroke-current;
         }
         :global(svg.active path) {
             @apply text-blue-500;
-            @apply fill-current;
+            // @apply fill-current;
         }
         &:hover,
         &:focus {

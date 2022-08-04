@@ -21,7 +21,6 @@
     } from 'shared/lib/participation/stores'
     import {
         AccountParticipationAbility,
-        Participation,
         ParticipationAction,
         StakingAirdrop,
     } from 'shared/lib/participation/types'
@@ -34,7 +33,7 @@
     import { selectedAccount, IAccountState } from '@core/account'
 
     export let shouldParticipateOnMount = false
-    export let participations: Participation[] = []
+    // export let participations: Participation[] = []
 
     let pendingParticipationIds: string[] = []
     let previousPendingParticipationsLength = 0

@@ -1,7 +1,7 @@
 <script lang="ts">
     import { Text } from 'shared/components'
     import { debounce } from 'shared/lib/utils'
-    import { asyncGetLegacySeedChecksum } from 'shared/lib/wallet'
+    // import { asyncGetLegacySeedChecksum } from '@lib/wallet'
     import { english } from '@auxiliary/wordlists'
     import { localize } from '@core/i18n'
     import { verifyMnemonic } from '@core/profile-manager'
@@ -81,7 +81,7 @@
                 } else {
                     statusMessage = localize('views.importFromText.seedDetected')
                     value = trimmedContent
-                    seedChecksum = await asyncGetLegacySeedChecksum(value)
+                    // seedChecksum = await asyncGetLegacySeedChecksum(value)
                 }
             } else if (type === Type.Mnemonic) {
                 const mnemonicValidations = isMnemonic(words)
