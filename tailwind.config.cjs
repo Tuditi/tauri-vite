@@ -9,39 +9,38 @@ module.exports = {
         // removeDeprecatedGapUtilities: true,
         // purgeLayersByDefault: true,
     },
-    purge: {
-        content: ['./src/**/*.svelte', './src/**/*.scss'],
-        options: {
-            // Needed to prevent purgecss from removing classes declared with string concatenation
-            safelist: [
-                // `from-${color}` (gradients)
-                /^from-/,
-                // `to-${color}` (gradients)
-                /^to-/,
-                // `bg-${color}`
-                /^bg-/,
-                /^hover:bg-/,
-                /^dark:bg-/,
-                /^border-/,
-                /^hover:border-/,
-                /^dark:border-/,
-                /^dark:hover:border-/,
-                // `text-${color}`
-                /^text-/,
-                /^hover:text-/,
-                /^dark:text-/,
-                /^font-/,
-                /^hover:font-/,
-                /^dark:font-/,
-                /^grid-cols-/,
-                // `p-${size}`
-                /^p-/,
-                'scheme-dark',
-                'fill-current',
-                'stroke-current',
-            ],
+    content: ['./src/**/*.svelte', './src/**/*.scss'],
+    // TODO check if this holds, since purgecss has been removed from latest tailwind
+    // Needed to prevent purgecss from removing classes declared with string concatenation
+    safelist: [
+        // `from-${color}` (gradients)
+        {
+            pattern: /^from-/,
         },
-    },
+        // `to-${color}` (gradients)
+        /^to-/,
+        // `bg-${color}`
+        /^bg-/,
+        /^hover:bg-/,
+        /^dark:bg-/,
+        /^border-/,
+        /^hover:border-/,
+        /^dark:border-/,
+        /^dark:hover:border-/,
+        // `text-${color}`
+        /^text-/,
+        /^hover:text-/,
+        /^dark:text-/,
+        /^font-/,
+        /^hover:font-/,
+        /^dark:font-/,
+        /^grid-cols-/,
+        // `p-${size}`
+        /^p-/,
+        'scheme-dark',
+        'fill-current',
+        'stroke-current',
+    ],
     theme: {
         colors: {
             blue: {
