@@ -1,4 +1,4 @@
-<script type="typescript">
+<script lang="ts">
     import { Icon, TextInput, InputContainer } from 'shared/components'
 
     export let value: string
