@@ -105,6 +105,7 @@
 </script>
 
 <div>
+    <!-- svelte-ignore a11y-autofocus -->
     <textarea
         {disabled}
         class="text-14 leading-140 resize-none w-full p-4 pb-3 rounded-xl border border-solid {error
