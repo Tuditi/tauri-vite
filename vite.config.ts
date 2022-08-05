@@ -20,6 +20,9 @@ export default defineConfig({
         minify: !process.env.TAURI_DEBUG ? 'esbuild' : false,
         // produce sourcemaps for debug builds
         sourcemap: !!process.env.TAURI_DEBUG,
+        commonjsOptions: {
+            include: [/src/, /node_modules/],
+        }
     },
     plugins: [svelte()],
     resolve: {
@@ -27,7 +30,7 @@ export default defineConfig({
             { find: '@auxiliary', replacement: path.resolve(__dirname, 'src/shared/lib/auxiliary') },
             { find: '@contexts', replacement: path.resolve(__dirname, 'src/shared/lib/contexts') },
             { find: '@core', replacement: path.resolve(__dirname, 'src/shared/lib/core') },
-            { find: '@features', replacement: path.resolve(__dirname, 'src/shared/lib/features') },
+            { find: '@features', replacement: path.resolve(__dirname, 'src/shared/features') },
             { find: '@lib', replacement: path.resolve(__dirname, 'src/shared/lib') },
             { find: 'shared', replacement: path.resolve(__dirname, 'src/shared') },
         ],
